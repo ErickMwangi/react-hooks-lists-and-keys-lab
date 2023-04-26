@@ -9,12 +9,12 @@ function ProjectList({ projects }) {
       <div id="project-list">
         {/* render ProjectItem components here */}
         {projects.map((project) => {
-          return <ProjectItem 
+          return  <ProjectItem
           key={project.id}
           name={project.name}
           about={project.about}
           technologies={project.technologies}
-          />
+          /> 
         })}
         </div>
     </div>
